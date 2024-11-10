@@ -1,0 +1,71 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(135deg, #f3e5d7, #f7f3ed);
+  color: #333;
+}
+
+/* Featurette Styling */
+.featurette-heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  color: #5f4b3b;
+}
+
+.lead {
+  color: #777;
+}
+
+.featurette img {
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featurette img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styling */
+footer.footer {
+  background-color: #f7f3ed;
+  padding: 20px 0;
+  font-size: 0.9rem;
+  color: #5f4b3b;
+}
+
+footer a {
+  color: #a4826d;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer .float-right a {
+  color: #bfa285;
+  font-weight: 500;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.featurette {
+  animation: fadeInUp 1s ease-in-out;
+}

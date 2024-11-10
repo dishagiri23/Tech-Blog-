@@ -1,0 +1,98 @@
+/* Reset and Basic Setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+    color: #333;
+}
+
+/* Navbar Animation */
+.navbar {
+    animation: fadeInDown 1s ease-in-out;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Main Container Styling */
+.container.my-4 {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Form Styling */
+.form-control {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 8px rgba(255, 99, 71, 0.5);
+    border-color: #ff6347;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #ff6347;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ff4500;
+    box-shadow: 0 4px 10px rgba(255, 69, 0, 0.3);
+}
+
+/* Back to Top Link */
+.footer .float-right a {
+    text-decoration: none;
+    color: #ff6347;
+    transition: color 0.3s;
+}
+
+.footer .float-right a:hover {
+    color: #ff4500;
+}
+
+/* Footer Styling */
+footer {
+    padding: 20px 0;
+    color: #555;
+    text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .container.my-4 {
+        width: 90%;
+    }
+}

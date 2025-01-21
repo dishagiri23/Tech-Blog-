@@ -7,7 +7,7 @@ Welcome to **iCoder**, your go-to platform for technology news, tutorials, and i
 
 ## 📸 Screenshot
 
-![iCoder Screenshot]()
+![image alt](https://github.com/dishagiri23/Tech-Blog-/blob/54cd8afa3b8167435622cdb156c9319a531642a6/Screenshot.png)
 
 ---
 
